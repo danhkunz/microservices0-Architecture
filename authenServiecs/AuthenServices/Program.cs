@@ -1,12 +1,13 @@
 using System.Text;
-using AuthenServices;
+using AuthenServices.DBContext;
 using AuthenServices.Helpers;
+using AuthenServices.Services;
 using CacheLite;
-
-//using CacheLite;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,8 +19,13 @@ var configuration = builder.Configuration.
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<AuthenDb>(option => option.UseSqlite("Data source=authenDb.db"));
+builder.Services.AddScoped<IUserServices,UserServices>();
+builder.Services.AddControllers();
+builder.Services.AddKeyedScoped(Const.JWT_CACHE, (s, e) => new Cache(Const.JWT_CACHE));
 
 
+AddSwaggerGen();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -31,7 +37,17 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.Run();
-
+void AddSwaggerGen()
+{
+    builder.Services.AddSwaggerGen(options =>
+    {
+        options.SwaggerDoc("v1", new OpenApiInfo
+        {
+            Title = "Authen API",
+            Version = "v1"
+        });
+    });
+}
 
 void addSerilog()
 {
