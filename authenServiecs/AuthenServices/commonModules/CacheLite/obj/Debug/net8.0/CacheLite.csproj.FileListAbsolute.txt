@@ -1,0 +1,11 @@
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/bin/Debug/net8.0/CacheLite.dll.config
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/bin/Debug/net8.0/CacheLite.deps.json
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/bin/Debug/net8.0/CacheLite.dll
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/bin/Debug/net8.0/CacheLite.pdb
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/obj/Debug/net8.0/CacheLite.csproj.AssemblyReference.cache
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/obj/Debug/net8.0/CacheLite.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/obj/Debug/net8.0/CacheLite.csproj.CoreCompileInputs.cache
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/obj/Debug/net8.0/CacheLite.dll
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/obj/Debug/net8.0/refint/CacheLite.dll
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/obj/Debug/net8.0/CacheLite.pdb
+/Users/danhkunz/Documents/kensakuwebapi/CommonModules/commonmodules/CacheLite/obj/Debug/net8.0/ref/CacheLite.dll
