@@ -1,0 +1,7 @@
+/Users/danhkunz/Documents/microservices0-Architecture/Api-Gateway/Api-Gateway/obj/Debug/net8.0/Api-Gateway.csproj.AssemblyReference.cache
+/Users/danhkunz/Documents/microservices0-Architecture/Api-Gateway/Api-Gateway/obj/Debug/net8.0/Api-Gateway.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danhkunz/Documents/microservices0-Architecture/Api-Gateway/Api-Gateway/obj/Debug/net8.0/Api-Gateway.AssemblyInfoInputs.cache
+/Users/danhkunz/Documents/microservices0-Architecture/Api-Gateway/Api-Gateway/obj/Debug/net8.0/Api-Gateway.AssemblyInfo.cs
+/Users/danhkunz/Documents/microservices0-Architecture/Api-Gateway/Api-Gateway/obj/Debug/net8.0/Api-Gateway.csproj.CoreCompileInputs.cache
+/Users/danhkunz/Documents/microservices0-Architecture/Api-Gateway/Api-Gateway/obj/Debug/net8.0/Api-Gateway.MvcApplicationPartsAssemblyInfo.cs
+/Users/danhkunz/Documents/microservices0-Architecture/Api-Gateway/Api-Gateway/obj/Debug/net8.0/Api-Gateway.MvcApplicationPartsAssemblyInfo.cache

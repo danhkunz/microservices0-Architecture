@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CokGWJUtMVtZcpuKNZrbbZe9iB5p3PnsKc9c3wFrrF0=",
+  "Source": "AuthenServices",
+  "BasePath": "_content/AuthenServices",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,27 @@
+{
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/api/auth/{everything}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          { "Host": "auth-service", "Port": 80 }
+        ],
+        "UpstreamPathTemplate": "/auth/{everything}",
+        "UpstreamHttpMethod": ["*"]
+      },
+      {
+        "DownstreamPathTemplate": "/api/orders/{everything}",
+        "DownstreamHostAndPorts": [
+          { "Host": "order-service", "Port": 80 }
+        ],
+        "UpstreamPathTemplate": "/orders/{everything}",
+        "UpstreamHttpMethod": ["*"],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer"
+        }
+      }
+    ],
+    "GlobalConfiguration": {
+      "BaseUrl": "http://gateway:80"
+    }
+  }
